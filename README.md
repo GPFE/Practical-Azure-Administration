@@ -65,7 +65,3 @@ graph LR
 |--------|--------|
 | Azure Cloud Shell | 🟦 In Progress |
 | _More modules coming soon_ | ⬜ Locked |
-
----
-
-_Built with ❤️ for Azure admins who learn by doing._
