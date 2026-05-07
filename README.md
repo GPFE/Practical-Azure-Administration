@@ -14,6 +14,10 @@ graph LR
     D --> E[✅ Solution 1]
     E --> F[🎯 Practice 2\nCode Editor & Scripts]
     F --> G[✅ Solution 2]
+    G --> H[🧭 Troubleshooting\nRestore CloudDrive]
+    H --> I[📖 Lesson 3\nIaC Template Structure]
+    I --> J[🎯 Practice 3\nBuild & Deploy Template]
+    J --> K[✅ Solution 3]
 
     style A fill:#5C7CFA,color:#fff
     style B fill:#74C0FC,color:#000
@@ -22,11 +26,15 @@ graph LR
     style E fill:#51CF66,color:#fff
     style F fill:#F59F00,color:#fff
     style G fill:#51CF66,color:#fff
+    style H fill:#FF922B,color:#fff
+    style I fill:#74C0FC,color:#000
+    style J fill:#F59F00,color:#fff
+    style K fill:#51CF66,color:#fff
 ```
 
 ---
 
-## 📚 Module: Azure Cloud Shell
+## 📚 Module 1: Azure Cloud Shell
 
 | # | Lesson | Type | Time |
 |---|--------|------|------|
@@ -36,6 +44,17 @@ graph LR
 | 4 | [Solution 1](lessons/04-solution-1.md) | ✅ Solution | ~2 min |
 | 5 | [Practice Task 2 — Code Editor & Scripts](lessons/05-practice-task-2.md) | 🎯 Task | ~5 min |
 | 6 | [Solution 2](lessons/06-solution-2.md) | ✅ Solution | ~2 min |
+| 7 | [Fix Missing `~/clouddrive`](lessons/07-cloud-shell-ephemeral-sessions.md) | 🧭 Troubleshooting | ~2 min |
+
+---
+
+## 📦 Module 2: Infrastructure as Code (ARM)
+
+| # | Lesson | Type | Time |
+|---|--------|------|------|
+| 8 | [IaC with ARM Templates (Structure First)](lessons/08-iac-template-structure.md) | 📖 Concept + Interactive | ~7 min |
+| 9 | [Practice Task 3 — Build & Deploy Your First IaC Template](lessons/09-practice-task-3-iac.md) | 🎯 Task | ~8 min |
+| 10 | [Solution 3](lessons/10-solution-3-iac.md) | ✅ Solution | ~4 min |
 
 ---
 
@@ -63,5 +82,6 @@ graph LR
 
 | Module | Status |
 |--------|--------|
-| Azure Cloud Shell | 🟦 In Progress |
+| Azure Cloud Shell | ✅ Complete |
+| Infrastructure as Code (ARM) | 🟦 In Progress |
 | _More modules coming soon_ | ⬜ Locked |
