@@ -177,16 +177,16 @@ Edit & save again ──► changes persist immediately
 
 ---
 
-## 🏆 Score Check
+## 🏆 Progress Check
 
-| Task | Points |
+| Task | Status |
 |------|--------|
-| Task 1 — Opened the Cloud Shell editor | ✅ +40 XP |
-| Task 2 — Wrote a Bash script | ✅ +40 XP |
-| Task 3 — Saved to CloudDrive | ✅ +40 XP |
-| Task 4 — Made executable and ran | ✅ +40 XP |
-| Task 5 — Edited and verified persistence | ✅ +40 XP |
-| **Total** | **+200 XP** |
+| Task 1 — Opened the Cloud Shell editor | ✅ Done |
+| Task 2 — Wrote a Bash script | ✅ Done |
+| Task 3 — Saved to CloudDrive | ✅ Done |
+| Task 4 — Made executable and ran | ✅ Done |
+| Task 5 — Edited and verified persistence | ✅ Done |
+| **All tasks completed** | **🎉 Excellent work!** |
 
 ---
 
@@ -194,7 +194,7 @@ Edit & save again ──► changes persist immediately
 
 ```
 Azure Cloud Shell module
-████████████████████ 100%   +800 XP total
+████████████████████ 100%
 
  🏅 Achievement Unlocked: Cloud Shell Rookie
 ```

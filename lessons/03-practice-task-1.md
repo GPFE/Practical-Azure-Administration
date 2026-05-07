@@ -1,6 +1,6 @@
 # 🎯 Practice Task 1 — Explore & Navigate Cloud Shell
 
-> **+200 XP** &nbsp;|&nbsp; ⏱️ ~5 minutes &nbsp;|&nbsp; 🎯 Task
+> ⏱️ ~5 minutes &nbsp;|&nbsp; 🎯 Task
 
 ---
 

@@ -126,16 +126,16 @@ cat hello.txt → "Hello, Cloud Shell!"
 
 ---
 
-## 🏆 Score Check
+## 🏆 Progress Check
 
-| Task | Points |
+| Task | Status |
 |------|--------|
-| Task 1 — Opened Cloud Shell | ✅ +40 XP |
-| Task 2 — Identified account & subscription | ✅ +40 XP |
-| Task 3 — Explored CloudDrive | ✅ +40 XP |
-| Task 4 — Created folder & file | ✅ +40 XP |
-| Task 5 — Verified persistence | ✅ +40 XP |
-| **Total** | **+200 XP** |
+| Task 1 — Opened Cloud Shell | ✅ Done |
+| Task 2 — Identified account & subscription | ✅ Done |
+| Task 3 — Explored CloudDrive | ✅ Done |
+| Task 4 — Created folder & file | ✅ Done |
+| Task 5 — Verified persistence | ✅ Done |
+| **All tasks completed** | **🎉 Excellent work!** |
 
 ---
 

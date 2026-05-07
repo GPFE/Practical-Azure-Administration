@@ -44,7 +44,7 @@ graph LR
 - **Read** each lesson in order
 - **Try** every command in your own Azure Cloud Shell session
 - **Complete** the practice tasks before peeking at the solutions
-- **Track your XP** — each lesson rewards you with points!
+- **Celebrate progress** — each lesson ends with a quick win 🎉
 
 > 💡 **No Azure subscription yet?**  
 > You can still follow along using the [free Azure trial](https://azure.microsoft.com/free/).

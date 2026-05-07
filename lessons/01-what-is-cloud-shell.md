@@ -1,6 +1,6 @@
 # 📖 Lesson 1 — What is Azure Cloud Shell?
 
-> **+100 XP** &nbsp;|&nbsp; ⏱️ ~3 minutes &nbsp;|&nbsp; 📖 Concept
+> ⏱️ ~3 minutes &nbsp;|&nbsp; 📖 Concept
 
 ---
 
@@ -154,9 +154,7 @@ Your Browser
 
 ## 🏆 Lesson Complete!
 
-```
-+100 XP ████████████████████ 100%
-```
+🎉 Nice work — Lesson 1 complete.
 
 **Next up →** [Lesson 2 — Cloud Shell in Action](02-cloud-shell-in-action.md)
 
