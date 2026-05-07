@@ -1,6 +1,6 @@
 # 🎯 Practice Task 2 — Code Editor & Saving Scripts
 
-> **+200 XP** &nbsp;|&nbsp; ⏱️ ~5 minutes &nbsp;|&nbsp; 🎯 Task
+> ⏱️ ~5 minutes &nbsp;|&nbsp; 🎯 Task
 
 ---
 

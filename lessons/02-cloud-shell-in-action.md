@@ -1,6 +1,6 @@
 # 🛠️ Lesson 2 — Cloud Shell in Action
 
-> **+100 XP** &nbsp;|&nbsp; ⏱️ ~6 minutes &nbsp;|&nbsp; 🛠️ Practical
+> ⏱️ ~6 minutes &nbsp;|&nbsp; 🛠️ Practical
 
 ---
 
@@ -94,6 +94,8 @@ ls -la
 ## Step 3 — The CloudDrive
 
 Your persistent storage lives in `~/clouddrive`. Anything you save here survives session restarts.
+
+> ⚠️ If `~/clouddrive` is missing, you're likely in an **ephemeral** session ("No storage account required"). Use this quick fix: [Restore persistent CloudDrive](07-cloud-shell-ephemeral-sessions.md).
 
 ```
 ~/
@@ -254,9 +256,7 @@ Open Cloud Shell
 
 ## 🏆 Lesson Complete!
 
-```
-+100 XP ████████████████████ 100%
-```
+🎉 Great job — you finished this lesson.
 
 **Next up →** [Practice Task 1 — Explore & Navigate](03-practice-task-1.md)
 
