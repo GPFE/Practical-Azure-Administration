@@ -11,6 +11,18 @@ Now practice reading and extending a template quickly.
 
 ---
 
+## 🧭 Before You Begin
+
+In this task, your goal is not just to deploy successfully.
+Your real goal is to **predict behavior from template code before running commands**.
+
+Use this mindset:
+- Read parameters first (required vs optional)
+- Predict expected changes
+- Confirm your prediction with `what-if`
+
+---
+
 ## ✅ Task Checklist
 
 ```
@@ -23,6 +35,9 @@ Now practice reading and extending a template quickly.
 ---
 
 ## 🧪 Exercise 1 — Predict First
+
+Do this part before running any command.
+This is the same skill used in real-world change reviews.
 
 Read this snippet:
 
@@ -48,6 +63,9 @@ Write down your prediction:
 ---
 
 ## 🧪 Exercise 2 — Fill Missing Fields
+
+Here you are extending an existing template with tags and outputs.
+Focus on referencing parameters and deployed resources correctly.
 
 Open your `azuredeploy.json` from Practice Task 3 and add the missing parts below.
 
@@ -75,6 +93,9 @@ Guides:
 
 ## 🧪 Exercise 3 — Validate, What-If, Deploy
 
+Run these in order and review output after each step.
+If results differ from your prediction, fix the template before deployment.
+
 Run:
 
 1. `az deployment group validate`
@@ -90,6 +111,8 @@ Either + Create (first run) or ~ Modify (if resource already exists)
 ---
 
 ## 🧪 Exercise 4 — Verify
+
+Verification proves your changes were actually applied, not just accepted.
 
 Check:
 
