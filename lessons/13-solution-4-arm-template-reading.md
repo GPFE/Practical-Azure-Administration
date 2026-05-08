@@ -4,6 +4,17 @@
 
 ---
 
+## 🧭 How to Use This Solution
+
+Use this page to check your reasoning, not just your final output.
+
+When comparing:
+1. Check whether your predictions about required/optional parameters were correct
+2. Confirm your expressions for `tags` and `outputs` match ARM syntax
+3. Verify your command sequence stayed safe (`validate` → `what-if` → `create`)
+
+---
+
 ## Exercise 1 — Prediction ✅
 
 From the snippet:

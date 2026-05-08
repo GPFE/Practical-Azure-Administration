@@ -11,6 +11,20 @@ No portal clicking allowed. Use **ARM template + Azure CLI** only.
 
 ---
 
+## 🧭 Before You Begin
+
+This practice expects that you already understand:
+
+- ARM template root fields (`parameters`, `resources`, `outputs`)
+- Basic Azure CLI deployment commands
+- Why `validate` and `what-if` are safer than deploying immediately
+
+If any of these feel unclear, quickly review:
+- [Lesson 3 — IaC with ARM Templates](08-iac-template-structure.md)
+- [Lesson 4 — ARM Template Field Guide](11-arm-template-field-guide.md)
+
+---
+
 ## ✅ Task Checklist
 
 ```
@@ -24,6 +38,9 @@ No portal clicking allowed. Use **ARM template + Azure CLI** only.
 ---
 
 ## 🧪 Exercise 1 — Fill Missing Fields in a Starter Template
+
+Start simple: this step is about building a correct template skeleton first.
+Do not rush into resource properties until the root structure is valid.
 
 In `~/clouddrive/iac-lab`, create `azuredeploy.json` by pasting this starter and filling only the `TODO` values:
 
@@ -68,6 +85,9 @@ graph LR
 
 ## 🧪 Exercise 2 — Add a Storage Account Resource
 
+Now convert your skeleton into real infrastructure by adding one resource block.
+Think of this as your first full declarative deployment definition.
+
 Add parameters:
 - `storageAccountName` (string)
 - `location` (string, default to resource group's location)
@@ -91,6 +111,10 @@ Resource Group
 
 ## 🧪 Exercise 3 — Add Outputs + Parameters File
 
+This step improves reusability:
+- Parameter files let you deploy the same template across environments
+- Outputs expose important values for scripts and follow-up automation
+
 Create `azuredeploy.parameters.json` and pass:
 - `storageAccountName`
 
@@ -101,6 +125,10 @@ In template `outputs`, return:
 ---
 
 ## 🧪 Exercise 4 — Validate + What-If
+
+Treat this as a mandatory safety gate:
+- `validate` catches schema/rule issues
+- `what-if` shows expected changes before anything is applied
 
 Use Azure CLI to run:
 
@@ -119,6 +147,9 @@ Resource changes: + Create
 ---
 
 ## 🧪 Exercise 5 — Deploy + Verify
+
+Only deploy once your preview looks correct.
+Verification is part of the task: confirm Azure matches what your template declared.
 
 Deploy to a resource group you already have (or create one first).
 Then verify the storage account exists and matches your template settings.

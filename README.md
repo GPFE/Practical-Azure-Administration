@@ -65,6 +65,17 @@ graph LR
 | 12 | [Practice Task 4 — Read, Predict, and Extend an ARM Template](lessons/12-practice-task-4-arm-template-reading.md) | 🎯 Task | ~8 min |
 | 13 | [Solution 4](lessons/13-solution-4-arm-template-reading.md) | ✅ Solution | ~5 min |
 
+### 💡 How to Learn the IaC Module Effectively
+
+If ARM templates are new to you, follow this sequence for better understanding:
+
+1. **Read Lesson 3 first** to understand template structure and deployment flow
+2. **Use Lesson 4 as your reference** while working through the practice tasks
+3. **Do each practice before opening its solution** so you build real reading/deployment confidence
+4. **Run `validate` and `what-if` every time** before `create` to avoid accidental mistakes
+
+> 🎯 Goal: By the end of Module 2, you should be able to read an ARM template and predict deployment results before running it.
+
 > ℹ️ File names keep their original IDs from earlier revisions; the **#** column above shows the current lesson order.
 
 ---

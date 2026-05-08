@@ -14,6 +14,15 @@ By the end of this lesson, you will be able to:
 
 ---
 
+## 🧭 Why This Field Guide Matters
+
+Most ARM errors are not caused by typing mistakes — they come from misunderstanding field purpose.
+This guide helps you answer: **"What does this field control, and why is it here?"**
+
+Use it as a quick reference whenever a template feels unclear.
+
+---
+
 ## 🧠 One Visual: Template at a Glance
 
 ```mermaid

@@ -4,6 +4,17 @@
 
 ---
 
+## 🧭 How to Use This Solution
+
+Use this page to compare your work, not replace your first attempt.
+
+Recommended approach:
+1. Confirm your template structure matches the solution
+2. Compare your command flow (`validate` → `what-if` → `create`)
+3. If your output differs, identify whether the issue is in template fields, parameters, or CLI command arguments
+
+---
+
 ## Exercise 1 — Starter Template (Filled) ✅
 
 `azuredeploy.json`:

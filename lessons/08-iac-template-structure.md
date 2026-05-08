@@ -14,6 +14,16 @@ By the end of this lesson, you will be able to:
 
 ---
 
+## 🧭 Why This Lesson Matters
+
+When teams deploy manually through the portal, environments slowly drift apart.
+IaC solves this by turning infrastructure into versioned, repeatable files.
+
+In this lesson, focus on understanding the **shape** of an ARM template first.
+Once the structure is clear, writing and debugging templates becomes much easier.
+
+---
+
 ## 🧠 IaC in One Picture
 
 ```mermaid
@@ -66,6 +76,12 @@ graph TD
 ---
 
 ## 🛠️ Guided Walkthrough in Cloud Shell
+
+Before you start:
+
+- Make sure you are in a Cloud Shell session with persistent `~/clouddrive`
+- Use a resource group where you have deployment permission
+- Keep this lesson open while practicing so you can map each section quickly
 
 Create a workspace and starter files:
 
