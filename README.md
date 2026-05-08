@@ -16,8 +16,11 @@ graph LR
     F --> G[✅ Solution 2]
     G --> H[🧭 Troubleshooting\nRestore CloudDrive]
     H --> I[📖 Lesson 3\nIaC Template Structure]
-    I --> J[🎯 Practice 3\nBuild & Deploy Template]
-    J --> K[✅ Solution 3]
+    I --> J[📖 Lesson 4\nARM Field Guide]
+    J --> K[🎯 Practice 3\nBuild & Deploy Template]
+    K --> L[✅ Solution 3]
+    L --> M[🎯 Practice 4\nTemplate Reading + Outputs]
+    M --> N[✅ Solution 4]
 
     style A fill:#5C7CFA,color:#fff
     style B fill:#74C0FC,color:#000
@@ -29,7 +32,10 @@ graph LR
     style H fill:#FF922B,color:#fff
     style I fill:#74C0FC,color:#000
     style J fill:#F59F00,color:#fff
-    style K fill:#51CF66,color:#fff
+    style K fill:#F59F00,color:#fff
+    style L fill:#51CF66,color:#fff
+    style M fill:#F59F00,color:#fff
+    style N fill:#51CF66,color:#fff
 ```
 
 ---
@@ -53,8 +59,13 @@ graph LR
 | # | Lesson | Type | Time |
 |---|--------|------|------|
 | 8 | [IaC with ARM Templates (Structure First)](lessons/08-iac-template-structure.md) | 📖 Concept + Interactive | ~7 min |
-| 9 | [Practice Task 3 — Build & Deploy Your First IaC Template](lessons/09-practice-task-3-iac.md) | 🎯 Task | ~8 min |
-| 10 | [Solution 3](lessons/10-solution-3-iac.md) | ✅ Solution | ~4 min |
+| 9 | [ARM Template Field Guide (What Each Field Does)](lessons/11-arm-template-field-guide.md) | 📖 Concept + Visual | ~8 min |
+| 10 | [Practice Task 3 — Build & Deploy Your First IaC Template](lessons/09-practice-task-3-iac.md) | 🎯 Task | ~8 min |
+| 11 | [Solution 3](lessons/10-solution-3-iac.md) | ✅ Solution | ~4 min |
+| 12 | [Practice Task 4 — Read, Predict, and Extend an ARM Template](lessons/12-practice-task-4-arm-template-reading.md) | 🎯 Task | ~8 min |
+| 13 | [Solution 4](lessons/13-solution-4-arm-template-reading.md) | ✅ Solution | ~5 min |
+
+> ℹ️ File names keep their original IDs from earlier revisions; the **#** column above shows the current lesson order.
 
 ---
 

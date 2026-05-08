@@ -4,7 +4,7 @@
 
 ---
 
-## Exercise 1 — Template Skeleton ✅
+## Exercise 1 — Starter Template (Filled) ✅
 
 `azuredeploy.json`:
 
@@ -154,7 +154,7 @@ flowchart TD
 
 | Task | Status |
 |------|--------|
-| Exercise 1 — Template skeleton | ✅ Done |
+| Exercise 1 — Starter template completed | ✅ Done |
 | Exercise 2 — Storage resource | ✅ Done |
 | Exercise 3 — Outputs + parameters file | ✅ Done |
 | Exercise 4 — Validate + what-if | ✅ Done |
@@ -165,7 +165,7 @@ flowchart TD
 
 ## ⏭️ Next Step
 
-Try extending the template with tags and a second resource (for example, a storage container).
+Continue with [Practice Task 4 — Read, Predict, and Extend an ARM Template](12-practice-task-4-arm-template-reading.md).
 
 ---
 

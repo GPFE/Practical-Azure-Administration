@@ -11,10 +11,10 @@ No portal clicking allowed. Use **ARM template + Azure CLI** only.
 
 ---
 
-## �� Task Checklist
+## ✅ Task Checklist
 
 ```
-☐  Exercise 1 — Create ARM template skeleton
+☐  Exercise 1 — Fill missing fields in a starter template
 ☐  Exercise 2 — Add a storage account resource
 ☐  Exercise 3 — Add outputs and parameter file
 ☐  Exercise 4 — Validate and preview with what-if
@@ -23,16 +23,34 @@ No portal clicking allowed. Use **ARM template + Azure CLI** only.
 
 ---
 
-## 🧪 Exercise 1 — Create the Template Skeleton
+## 🧪 Exercise 1 — Fill Missing Fields in a Starter Template
 
-In `~/clouddrive/iac-lab`, create `azuredeploy.json` containing:
+In `~/clouddrive/iac-lab`, create `azuredeploy.json` by pasting this starter and filling only the `TODO` values:
 
-- `$schema`
-- `contentVersion`
-- `parameters`
-- `variables`
-- `resources`
-- `outputs`
+```json
+{
+  "$schema": "TODO",
+  "contentVersion": "TODO",
+  "parameters": {
+    "storageAccountName": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string",
+      "defaultValue": "[resourceGroup().location]"
+    }
+  },
+  "variables": {},
+  "resources": [],
+  "outputs": {}
+}
+```
+
+Use these quick guides:
+- `$schema`: standard ARM deployment template schema URL
+- `contentVersion`: `1.0.0.0`
+- In Exercise 2, use `apiVersion: 2023-01-01` and verify in Azure template reference:  
+  https://learn.microsoft.com/azure/templates/microsoft.storage/storageaccounts
 
 Use this structure map as your guide:
 
