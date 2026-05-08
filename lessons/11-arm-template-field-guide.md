@@ -99,7 +99,7 @@ Then you should infer:
 
 🎉 Great work — you now understand what each main ARM field is responsible for.
 
-**Next up →** [Practice Task 3 — Build & Deploy Your First IaC Template](09-practice-task-3-iac.md)
+**Next up →** [Lesson 10 — Practice Task 3: Build & Deploy Your First IaC Template](09-practice-task-3-iac.md)
 
 ---
 

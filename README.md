@@ -65,6 +65,8 @@ graph LR
 | 12 | [Practice Task 4 — Read, Predict, and Extend an ARM Template](lessons/12-practice-task-4-arm-template-reading.md) | 🎯 Task | ~8 min |
 | 13 | [Solution 4](lessons/13-solution-4-arm-template-reading.md) | ✅ Solution | ~5 min |
 
+> ℹ️ File names keep their original IDs from earlier revisions; the **#** column above shows the current lesson order.
+
 ---
 
 ## 🚀 How to Use This Course
