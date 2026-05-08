@@ -49,7 +49,8 @@ In `~/clouddrive/iac-lab`, create `azuredeploy.json` by pasting this starter and
 Use these quick guides:
 - `$schema`: standard ARM deployment template schema URL
 - `contentVersion`: `1.0.0.0`
-- In Exercise 2, for API version references, use: Azure template reference for `Microsoft.Storage/storageAccounts`
+- In Exercise 2, use `apiVersion: 2023-01-01` and verify in Azure template reference:  
+  https://learn.microsoft.com/azure/templates/microsoft.storage/storageaccounts
 
 Use this structure map as your guide:
 
