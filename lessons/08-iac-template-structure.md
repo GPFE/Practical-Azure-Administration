@@ -137,7 +137,7 @@ Before moving on, confirm you can answer:
 
 🎉 Nice work — you now read ARM templates like a deployment plan, not a mystery file.
 
-**Next up →** [Practice Task 3 — Build & Deploy Your First IaC Template](09-practice-task-3-iac.md)
+**Next up →** [Lesson 4 — ARM Template Field Guide (What Each Field Does)](11-arm-template-field-guide.md)
 
 ---
 
